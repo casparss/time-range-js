@@ -1,0 +1,23 @@
+{
+  "name": "time-range-js",
+  "version": "1.0.0",
+  "description": "A package for working with pure time values without Date.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch --runInBand",
+    "prepublish": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.14.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.4",
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.2",
+    "typescript": "^3.9.6"
+  }
+}
